@@ -4,21 +4,24 @@
 <head>
   <meta charset="utf-8">
   <title>Personal Site 2</title>
+  <!-- owl-carousel css -->
+  <link rel="stylesheet" href="js\css\owl.carousel.min.css">
+  <link rel="stylesheet" href="js\css\owl.theme.default.min.css">
 
-
-
+  <!-- css link -->
   <link rel="stylesheet" href="style.css">
+  <!-- bootstrap css -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
   </script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
     integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
   </script>
+  <!-- fontawesome -->
   <script src="https://kit.fontawesome.com/d8bbf25e71.js" crossorigin="anonymous"></script>
+  <!-- google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -50,8 +53,7 @@
 
         <!-- home button -->
         <div class="home-btn">
-          <a type="button" class="btn-lg btn-general btn-home smooth-scroll" href="#about" title="Start Now"
-            role="button">Start Now</a>
+          <a type="button" class="btn btn-bootstrap btn-home active smooth-scroll" href="#about" title="Start Now"role="button">Start Now</a>
         </div>
       </div>
 
@@ -70,9 +72,9 @@
             <h2 class="about-headings">A Story <br>About Us</h2>
           </div>
           <div class="col-md-6 about-paragraphs">
-            <p>We offer complicated solutions based on your specifications as a custom web app development business with
-              focus of latest technologies such Node.Js, Python-Django. Business analysis, UI/UX, and engineering are
-              all handled by our team.. </p>
+            <p>BlueLight Suites Software is a website development and data science firm that provides custom web
+              development, desktop applications, enterprise portals, e-commerce applications, web design, and data
+              analysis to clients all around the world. </p>
             <p>as web development agency with business vision, we transform your ideas into successful digital products,
               building them from scratch and supporting them as long as you need by building powerful web apps. </p>
 
@@ -80,71 +82,183 @@
         </div>
         <!-- about image -->
         <div class="row">
-          <div class="col-md-12">
-            <div id="about-image">
-              <img src="images\about us image.jpg" class="img-responsive" alt="about us">
+          <div class="col-md-4 about-image">
+          
+            <div class="card text-center">
+              <div class="card-body">
+                <h5 class="card-title image-text-about"><strong> Web Devolopment</strong></h5>
+                <img src="images\about us image.jpg" alt="web development" class="img-responsive">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 about-image">
+            <div class="card text-center">
+              <div class="card-body">
+                <h5 class="card-title image-text-about"><strong> Machine Learning </strong></h5>
+                <img src="images\machine learning.jpg" alt="machine learning"  class="img-responsive">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 about-image">
+            <div class="card text-center">
+              <div class="card-body">
+                <h5 class="card-title image-text-about"><strong> Data Analysis </strong>(Pandas)</h5>
+                <img src="images\pandas.jpg" alt="data analysis" class="img-responsive">
+              </div>
             </div>
           </div>
         </div>
-      </div>
-
-    </div>
+        <div>
+          <div>
     <!-- end of about part one section -->
 
 
-    <!-- ****************************  part two of about section - still working on it ************************* -->
 
 
+    <section id="about-2">
+      <div class="content-box-md">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="about-text text-center">
+                <i class="icon fa-solid fa-rocket fa-2x"></i>
+                <h5>Mission</h5>
+                <hr>
+                <p>Our mission is to give our customers the best service possible. As a result, we treat each client's
+                  website with care and maintain the greatest possible relationship with them, both during and after
+                  their objectives have been reached.</p>
 
-    <!-- <section id="about-2">
-    <div class="content-box-md">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-md-4 text-center">
-            <div class="card">
-            <div class="card-body">
-            <i class="icon fa-solid fa-rocket fa-4x"></i>
-              <h5>MISSION</h5><hr>
-              <p>With supporting text below as a natural lead-in to additional content.</p>
-            </div>
-          </div>
-          </div>
-
-          <div class="col-lg-4 text-center">
-            <div class="card">
-              <div class="card-body">
-            <i class="icon fa-solid fa-eye-low-vision fa-4x"></i>
-              <h5>VISION</h5> <hr>
-              <p>With supporting text below as a natural lead-in to additional content.</p>
-            </div>
-          </div>
-        </div>
-
-            <div class="col-lg-4 text-center">
-              <div class="card">
-                <div class="card-body">
-                  <i class=" icon fa-solid fa-pencil fa-4x"></i>
-                <h5>PASSION</h5> <hr>
-                <p>With supporting text below as a natural lead-in to additional content.</p>
               </div>
             </div>
+            <div class="col-md-4">
+              <div class="about-text text-center">
+                <i class="icon fa-solid fa-eye-low-vision fa-2x"></i>
+                <h5>Vision</h5>
+                <hr>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis, tenetur numquam. Repellat esse
+                  iste eaque sequi unde? Dolorum eaque asperiores quas repellat pariatur, illo dolorem officiis
+                  similique obcaecati voluptas cupiditate.</p>
+
+              </div>
             </div>
+            <div class="col-md-4 ">
+              <div class="about-text text-center">
+                <i class=" icon fa-solid fa-pencil fa-2x"></i>
+                <h5>Passion</h5>
+                <hr>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam error ratione sint fuga adipisci
+                  totam nam cum qui consectetur dolorum esse enim, temporibus eos, doloribus dolores quasi neque
+                  deleniti aut!</p>
+              </div>
+
+
+            </div>
+
           </div>
-          </div>
-         
         </div>
-      </section>
-   
-  </section> -->
+      </div>
+    </section>
 
-    <!-- ********************************************************************* -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </section>
+
+  <!-- *************************Start of Team section*************************** -->
+  <section id="team-section">
+    <div class="content-box-lg">
+      <div class="container">
+        <div class="row">
+          <!-- team section left part 1 -->
+          <div class="col-md-6">
+            <div class="team-content">
+              <h5 class="text-rotate">WHO ARE WE</h5>
+              <h2 class="about-headings">Meet Our </h2>
+              <h2 class="about-headings">Talented <strong>Team</strong></h2>
+
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut dolorem ipsum voluptatibus facilis! Ea,
+                fugiat deserunt. Doloribus aliquam necessitatibus ipsum numquam laboriosam. Rerum quo perspiciatis,
+                accusantium qui omnis at quidem.</p>
+            </div>
 
 
+          </div>
+          <div class="col-md-6">
+            <div id="team-members" class= "owl-carousel owl-theme">
+              <!-- team member 1 -->
+              <div class="team-member">
+                <img src="images\Muthui Kyalo.jpg" alt="Muthui Kyalo" class="img-responsive">
 
-    <script src="index.js" charset="utf-8"></script>
+                <div class="team-member-overlay">
+                  <div class="team-member-info text-center">
+                    <h6>Muthui Kyalo</h6>
+                    <p>Web Developer and Data Analyst</p>
+                    <ul class="social-list">
+                      <li><a href="#"><i class="fa-brands fa-facebook"></i> </a></li>
+                      <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                      <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                    </ul>
+                  </div>
+                </div> 
+              </div>
+              <div class="team-member">
+                <img src="images\Joshua Kinywa.jpg" alt="Kinywa Joshua" class="img-responsive">
 
+                <div class="team-member-overlay">
+                  <div class="team-member-info text-center">
+                    <h6>Kinywa Joshua</h6>
+                    <p>Software Engineer</p>
+                    <ul class="social-list">
+                      <li><a href="#"><i class="fa-brands fa-facebook"></i> </a></li>
+                      <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                      <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="team-member">
+                <img src="images\Muthui Kyalo.jpg" alt="Muthui Kyalo" class="img-responsive">
+
+                <div class="team-member-overlay">
+                  <div class="team-member-info text-center">
+                    <h6>Muthui Kyalo</h6>
+                    <p>Web Developer and Data Analyst</p>
+                    <ul class="social-list">
+                      <li><a href="#"><i class="fa-brands fa-facebook"></i> </a></li>
+                      <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                      <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                    </ul>
+                  </div>
+                </div> 
+              </div>
+
+              <div class="team-member">
+                <img src="images\Joshua Kinywa.jpg" alt="Kinywa Joshua" class="img-responsive">
+
+                <div class="team-member-overlay">
+                  <div class="team-member-info text-center">
+                    <h6>Kinywa Joshua</h6>
+                    <p>Software Engineer</p>
+                    <ul class="social-list">
+                      <li><a href="#"><i class="fa-brands fa-facebook"></i> </a></li>
+                      <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                      <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+               </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- jquery link -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- js script -->
+  <script src="js\index.js" charset="utf-8"></script>
+  <!-- js owl-carousel -->
+<script src="js\owl carousel\owl.carousel.min.js"></script>
 </body>
 
 </html>
